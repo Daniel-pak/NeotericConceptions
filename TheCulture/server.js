@@ -19,6 +19,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 
 app.use('/blogs', require('./routes/blogRoutes'));
+// app.use('/admin', require)
 
 app.listen(port, function () {
     console.log("server listening on port " + port);
