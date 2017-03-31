@@ -11,14 +11,16 @@ nav{
 .logoContainer {
     max-height: 400px;
     margin-top: 5%;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .logoContainer img{
+    border-radius: 50%;
     max-width: 100%;
-    max-height: 400px;
+    max-height: 300px;
 }
 
 .buttonContainer{
@@ -40,7 +42,11 @@ nav{
 .dashBtn:hover{
     transition: ease-in-out;
     transition-duration: .3s;
-    border: red 3px solid;
+    border: #ff5c5c 3px solid;
     color: white;
-    background-color: red;
+    background-color: #ff5c5c;
+}
+
+.dashBtn a{
+    color: white;
 }
