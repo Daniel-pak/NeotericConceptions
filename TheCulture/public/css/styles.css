@@ -29,12 +29,22 @@
     flex-wrap: nowrap;
 }
 
+.designed{
+    margin-right: 20px;
+}
+/*
 .mainFoot i{
+    margin-left: 20px;
     margin-right: 10px;
     font-size: 30px;
     color: white;
 }
+*/
 
 .navLogo{
     height: 50px;
+}
+
+.copy{
+    margin-left: 20px;
 }
