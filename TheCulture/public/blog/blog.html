@@ -1,14 +1,22 @@
-<!-- this is where the blog will be --> 
-<div class="container">
-    <div class="row" ng-repeat='blog in blogs'>
-        <div class="col-sm-4">
-            <img ng-src="{{blog.image}}" alt="">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12" style='background-color: red'>
+            <h3>{{featured.title}}</h3>
+            <p>{{featuredEllipsify(featured.text)}}</p>
         </div>
-        <div class="col-sm-8">
-            <h3>{{blog.title}}</h3>
-            <pre ng-model='blog.text'>
-                Blah blah blah
-            </pre>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-3 blog-container" ng-repeat='blog in blogs track by $index' style='background-color: blue'>
+            <div class="blurb">
+                <h5>{{blog.title}}</h5>
+                <h6>{{ellipsify(blog.text)}}</h6>
+            </div>
         </div>
     </div>
 </div>
+
+
+
+<!--
+
+style='background-image: url({{blog.image}})'-->

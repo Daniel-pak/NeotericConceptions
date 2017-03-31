@@ -15,7 +15,7 @@ mongoose.connect(config.database, function (err) {
     console.log("Connected to the database");
 }) //creating the database this goes in the config file
 
-app.use(express.static(path.join(__dirname,"..", "public")));
+app.use(express.static(path.join(__dirname, "..","public")));
 
 
 app.use('/blogs', require('./routes/blogRoutes'));
