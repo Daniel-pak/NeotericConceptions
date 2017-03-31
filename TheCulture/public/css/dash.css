@@ -1,0 +1,46 @@
+body {
+    background-image: url("../images/dashboard.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+nav{
+    display: none;
+}
+.logoContainer {
+    max-height: 400px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoContainer img{
+    max-width: 100%;
+    max-height: 400px;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dashBtn {
+    font-size: 24px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: none;
+    border: white 3px solid;
+    color: white;
+    letter-spacing: 4px;
+}
+
+.dashBtn:hover{
+    transition: ease-in-out;
+    transition-duration: .3s;
+    border: red 3px solid;
+    color: white;
+    background-color: red;
+}
