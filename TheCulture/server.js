@@ -17,10 +17,10 @@ mongoose.connect(config.database, function (err) {
 
 app.use(express.static(path.join(__dirname, "public")));
 
-
+app.use('/podcasts', require('./routes/podcastRoutes'));
 app.use('/blogs', require('./routes/blogRoutes'));
 // app.use('/admin', require)
 
 app.listen(port, function () {
     console.log("server listening on port " + port);
-})
+});

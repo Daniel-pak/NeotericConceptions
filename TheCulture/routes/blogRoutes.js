@@ -8,7 +8,7 @@ blogRoutes.get('/', function(req, res) {
         if (err) return res.status(500).send(err);
         res.send(blogs);
     })
-})
+});
 
 
 module.exports = blogRoutes; 
