@@ -10,15 +10,27 @@
     margin-top: 30px;
 }
 
-.mainFoot{
+.footContainer{
     position: absolute;
     color: white;
     background-color: black;
+    width: 100%;
     height:  50px;
     bottom: 0px;
     right: 0px;
     left: 0px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.mainFoot i{
+    margin-right: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+.fa .copy {
+
 }
