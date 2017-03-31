@@ -21,8 +21,8 @@ angular.module("TheCultureApp")
             }
             
             $scope.featuredEllipsify = function(str) {
-                if (str.length > 50) { 
-                    return (str.subsring(0, 50) + "...");
+                if (str.length > 150) { 
+                    return (str.substring(0, 150) + "...");
                 } else { 
                     return str;
                 }
