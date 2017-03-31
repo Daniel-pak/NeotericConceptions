@@ -29,6 +29,7 @@ nav{
     left: 0px;
     display: flex;
     align-items: center;
+
     justify-content: space-between;
     flex-wrap: nowrap;
 }
@@ -51,4 +52,5 @@ nav{
 
 .copy{
     margin-left: 20px;
+
 }

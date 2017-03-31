@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+angular.module("TheCultureApp", ["ngRoute"])
+=======
 angular.module("TheCultureApp", ['ngRoute'])
+>>>>>>> master
 
     .config(["$routeProvider", function ($routeProvider) {
         $routeProvider
