@@ -9,3 +9,13 @@
 .nav-bar { 
     margin-top: 30px;
 }
+
+.blurb {
+    position: relative; 
+    bottom: 0px;
+}
+
+.blog-container { 
+    position: absolute;
+    margin: 5px 0px 5px 0px;
+}
