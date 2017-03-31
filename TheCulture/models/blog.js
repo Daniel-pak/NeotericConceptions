@@ -9,7 +9,8 @@ var BlogSchema = new Schema({
     body: { 
         type: String, 
         required: true
-    }
+    }, 
+    image: String
 })
 
 module.exports = mongoose.model("Blog", BlogSchema);

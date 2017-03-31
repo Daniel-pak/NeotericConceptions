@@ -1,4 +1,4 @@
-angular.module("TheCultureApp", [])
+angular.module("TheCultureApp", ['ngRoute'])
 
     .config(["$routeProvider", function ($routeProvider) {
         $routeProvider

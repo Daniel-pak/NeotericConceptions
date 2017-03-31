@@ -1,1 +1,14 @@
 <!-- this is where the blog will be --> 
+<div class="container">
+    <div class="row" ng-repeat='blog in blogs'>
+        <div class="col-sm-4">
+            <img ng-src="{{blog.image}}" alt="">
+        </div>
+        <div class="col-sm-8">
+            <h3>{{blog.title}}</h3>
+            <pre ng-model='blog.text'>
+                Blah blah blah
+            </pre>
+        </div>
+    </div>
+</div>
