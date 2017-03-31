@@ -6,6 +6,10 @@
     list-style: none;
 }
 
+.flex-nav a{
+       color: #ff5c5c;
+}
+
 .nav-bar { 
     margin-top: 30px;
 }
@@ -31,6 +35,6 @@
     color: white;
 }
 
-.fa .copy {
-
+.navLogo{
+    height: 50px;
 }
