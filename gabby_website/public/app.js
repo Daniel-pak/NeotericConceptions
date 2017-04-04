@@ -1,5 +1,8 @@
-$(document).ready(function() {
+$(document).ready(function () {
+
+    $('body').scrollspy({
+        target: '#scrollSpyList'
+    }) 
     
-    $('body').scrollspy({ target: '#scrollSpyList' })
-    
+    //select options here
 })

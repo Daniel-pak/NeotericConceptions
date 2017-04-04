@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles/home.css">
 </head>
 
-<body data-spy='scroll' data-offset="10" data-target='#scrollSpyList'>
+<body data-spy='scroll' data-target='#scrollSpyList'>
     <nav class='navbar navbar-inverse navbar-fixed-top'>
         <div class="container-fluid" id='scrollSpyList'>
             <ul class='nav navbar-nav'>
@@ -54,63 +54,111 @@
         </div>
     </div>
     <hr>
-    <div class="container printContainer">
-        <h4 class='text-center'>Print</h4>
+    <div class="container printContainer" id='print'>
+        <h4 class='text-center capital'>Print</h4>
         <div class="row">
+            <select name="" id="">
+               <option value="">NY Post</option>
+               <option value="">Vice</option>
+           </select>
             <div class="col-sm-12">
                 <div class="row">
-                    <h4 class='text-left'>NY Post</h4>
-                    <div class="col-sm-4">
-                        <div class="container-fluid" style='border: 1px black solid'>
-                            <h3><a href="http://nypost.com/2014/12/15/lawyer-accused-of-pocketing-the-money-he-won-for-clients/">Lawyer accused of pocketing the money he won for clients</a></h3>
-                            <p>This personal-injury lawyer was good at winning settlements — and then stealing the money from his needy clients, authorities said Monday.</p>
+                    <div id='nyPost'>
+                        <h4 class='text-left'>NY Post</h4>
+                        <div class="col-sm-4">
+                            <div class="container-fluid" style='border: 1px black solid'>
+                                <h3><a href="http://nypost.com/2014/12/15/lawyer-accused-of-pocketing-the-money-he-won-for-clients/">Lawyer accused of pocketing the money he won for clients</a></h3>
+                                <p>This personal-injury lawyer was good at winning settlements — and then stealing the money from his needy clients, authorities said Monday.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="container-fluid" style='border: 1px black solid'>
+                                <h3><a href="http://nypost.com/2015/04/17/one-teen-dead-another-wounded-in-housing-project-shooting/">One Teen Dead, Another Wounded in Housing-Project Shooting</a></h3>
+                                <p>A 16-year-old Brooklyn boy was fatally shot and his 13-year-old cousin was wounded Friday night when bullets started flying at a Bedford-Stuyvesant housing project.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="container-fluid" style='border: 1px black solid'>
+                                <h3><a href="http://nypost.com/2014/05/09/illegal-immigrant-faces-deportation-after-nypd-paperwork-error/">Illegal immigrant faces deportation after NYPD paperwork error</a></h3>
+                                <p>A longtime illegal-immigrant New Yorker — who was granted a pathway to permanent residency last year — is now on the verge of being sent back to China because of a paperwork snafu by the NYPD, a new lawsuit charges.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="container-fluid" style='border: 1px black solid'>
+                                <h3><a href="http://nypost.com/2014/06/19/chinese-chauffeur-says-city-racially-profiled-in-illegal-hack-bust/">Chinese Chauffeur Says City Racially Profiled in Illegal Hack Bust</a></h3>
+                                <p>A Chinese chauffeur who was driving his elderly white boss in Midtown claims racial profiling led city inspectors to seize his car and accuse him of being an illegal hack.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="container-fluid" style='border: 1px black solid'>
+                                <h3><a href="http://nypost.com/2015/05/12/amtrak-train-traveling-to-new-york-crashes-in-philadelphia/">Amtrak Derailment Kills 8, Closes Nation’s Busiest Corridor</a></h3>
+                                <p>PHILADELPHIA — An Amtrak train hurtling toward New York City derailed in Philadelphia Tuesday night, killing eight and injuring scores — six of them critically — as train cars were left strewn along the tracks.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="container-fluid" style='border: 1px black solid'>
+                                <h3><a href="http://nypost.com/2015/05/14/several-still-missing-after-amtrak-derailment/">Several Still Missing After Amtrak Derailment</a></h3>
+                                <p>About a dozen Amtrak passengers remain missing, 36 hours after a horrific derailment killed at least seven people in Philadelphia, sources said Thursday.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-sm-4">
-                        <div class="container-fluid" style='border: 1px black solid'>
-                            <h3><a href="http://nypost.com/2015/04/17/one-teen-dead-another-wounded-in-housing-project-shooting/">One Teen Dead, Another Wounded in Housing-Project Shooting</a></h3>
-                            <p>A 16-year-old Brooklyn boy was fatally shot and his 13-year-old cousin was wounded Friday night when bullets started flying at a Bedford-Stuyvesant housing project.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="container-fluid" style='border: 1px black solid'>
-                            <h3><a href="http://nypost.com/2014/05/09/illegal-immigrant-faces-deportation-after-nypd-paperwork-error/">Illegal immigrant faces deportation after NYPD paperwork error</a></h3>
-                            <p>A longtime illegal-immigrant New Yorker — who was granted a pathway to permanent residency last year — is now on the verge of being sent back to China because of a paperwork snafu by the NYPD, a new lawsuit charges.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="container-fluid" style='border: 1px black solid'>
-                            <h3><a href="http://nypost.com/2014/06/19/chinese-chauffeur-says-city-racially-profiled-in-illegal-hack-bust/">Chinese Chauffeur Says City Racially Profiled in Illegal Hack Bust</a></h3>
-                            <p>A Chinese chauffeur who was driving his elderly white boss in Midtown claims racial profiling led city inspectors to seize his car and accuse him of being an illegal hack.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="container-fluid" style='border: 1px black solid'>
-                            <h3><a href="http://nypost.com/2015/05/12/amtrak-train-traveling-to-new-york-crashes-in-philadelphia/">Amtrak Derailment Kills 8, Closes Nation’s Busiest Corridor</a></h3>
-                            <p>PHILADELPHIA — An Amtrak train hurtling toward New York City derailed in Philadelphia Tuesday night, killing eight and injuring scores — six of them critically — as train cars were left strewn along the tracks.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="container-fluid" style='border: 1px black solid'>
-                            <h3><a href="http://nypost.com/2015/05/14/several-still-missing-after-amtrak-derailment/">Several Still Missing After Amtrak Derailment</a></h3>
-                            <p>About a dozen Amtrak passengers remain missing, 36 hours after a horrific derailment killed at least seven people in Philadelphia, sources said Thursday.</p>
-                        </div>
-                    </div>
-                </div>
+                </div> <!-- end of NY post -->
             </div>
         </div>
     </div>
     <hr>
-    <div class="container radioContainer">
-       <div class="container text-center">
-        <h4 >Radio</h4>
-        <h6>A collection of stories broadcasted for WSHU Public Radio and National Public Radio</h6>
+    <div class="container radioContainer" id='radio'>
+        <div class="text-center capital">
+            <h4>Radio</h4>
+            <h6>A collection of stories broadcasted for WSHU Public Radio and National Public Radio</h6>
         </div>
         <audio controls>
             <source src=''> <!-- audio tags here maybe put these on the back end'. App side -->
             
         </audio>
     </div>
+
+    <hr>
+    <div class="container videoContainer" id='video'>
+        <div class="row">
+            <div class="col-sm-12">
+                <h4 class='text-center capital'>Video</h4>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <iframe width="273" height="220" src="https://www.youtube.com/embed/FIpTzfr4U5g" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-sm-4">
+                        <iframe width="273" height="220" src="https://www.youtube.com/embed/Yu92tIgMIvw" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-sm-4">
+                        <iframe width="273" height="220" src="https://www.youtube.com/embed/ZGCBxFHIN2Q" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container contactContainer" id='contact'>
+        <h4 class='capital text-center'>Contact me</h4>
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <form>
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" class='form-control'>
+                        <label>Email</label>
+                        <input type="text" class='form-control'>
+                        <label>Subject</label>
+                        <input type="text" class='form-control'>
+                        <label>Message</label>
+                        <textarea name="" id="" cols="30" rows="10" class='form-control'></textarea>
+                        <button id='contactButton' class='btn'>Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
 
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
     <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
