@@ -1,9 +1,16 @@
-.contacttitle{
+.contacttitle {
     font-size: 64px;
     font-family: 'bebas-neue';
 }
 
-.contactbutton{
+.contactbutton {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    height: 40px;
+    width: 150px;
+    letter-spacing: 4px;
     text-align: center;
     background: none;
     color: black;
@@ -14,4 +21,10 @@
     margin-top: 20px;
     display: flex;
     justify-content: center;
+}
+
+.contactbutton:hover {
+    transition: ease-in-out .4s;
+    color: white;
+    background-color: black;
 }
