@@ -10,28 +10,35 @@
 </head>
 
 <body data-spy='scroll' data-target='#scrollSpyList'>
-    <nav class='navbar navbar-inverse navbar-fixed-top'>
-        <div class="container-fluid" id='scrollSpyList'>
-            <ul class='nav navbar-nav'>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#print">Print</a></li>
-                <li><a href="#radio">Radio</a></li>
-                <li><a href="#video">Video</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#print">Print</a></li>
+                    <li><a href="#radio">Radio</a></li>
+                    <li><a href="#video">Video</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 
     <div class="container homeContainer" id='home'>
-        <div class="row">
-            <div class="col-sm-5 col-sm-offset-1">
-                <img src="https://static.wixstatic.com/media/a07e9e_a9d4ad343fb54187897581b1160c7463.jpg/v1/fill/w_640,h_640,al_c,q_85/a07e9e_a9d4ad343fb54187897581b1160c7463.webp" class='img-responsive pull-left' alt="">
-            </div>
-            <div class='text-center center-align'>
-                <h1 class='capital'>Gabrielle Fonrouge</h1>
-                <h3>Journalist</h3>
-            </div>
+        <div class="imageContainer">
+            <img src="https://static.wixstatic.com/media/a07e9e_a9d4ad343fb54187897581b1160c7463.jpg/v1/fill/w_640,h_640,al_c,q_85/a07e9e_a9d4ad343fb54187897581b1160c7463.webp" class='homeImg' alt="">
+        </div>
+        <div class='homeTextContainer'>
+            <h1 class='capital'>Gabrielle Fonrouge</h1>
+            <h3>Journalist</h3>
         </div>
     </div>
     <hr>
@@ -58,9 +65,9 @@
         <h4 class='text-center capital'>Print</h4>
         <div class="row">
             <select name="" id="">
-               <option value="">NY Post</option>
-               <option value="">Vice</option>
-           </select>
+                <option value="">NY Post</option>
+                <option value="">Vice</option>
+            </select>
             <div class="col-sm-12">
                 <div class="row">
                     <div id='nyPost'>
@@ -102,7 +109,8 @@
                             </div>
                         </div>
                     </div>
-                </div> <!-- end of NY post -->
+                </div>
+                <!-- end of NY post -->
             </div>
         </div>
     </div>
@@ -113,8 +121,9 @@
             <h6>A collection of stories broadcasted for WSHU Public Radio and National Public Radio</h6>
         </div>
         <audio controls>
-            <source src=''> <!-- audio tags here maybe put these on the back end'. App side -->
-            
+            <source src=''>
+            <!-- audio tags here maybe put these on the back end'. App side -->
+
         </audio>
     </div>
 
