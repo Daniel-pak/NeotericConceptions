@@ -1,0 +1,17 @@
+.contacttitle{
+    font-size: 64px;
+    font-family: 'bebas-neue';
+}
+
+.contactbutton{
+    text-align: center;
+    background: none;
+    color: black;
+    border: black 2px solid;
+}
+
+.btn-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}

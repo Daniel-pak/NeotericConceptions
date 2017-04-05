@@ -1,11 +1,14 @@
-.container{
+.aboutContainer{
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: flex-end;
     flex-wrap: wrap;
 }
-
+.aboutmetitle{
+    font-family: "bebas-neue";
+    font-size: 64px;
+}
 @media screen and (min-width: 992px) {
     .aboutImage {
         margin-left: 50px;

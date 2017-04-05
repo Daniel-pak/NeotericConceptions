@@ -1,0 +1,8 @@
+.videotitle{
+    font-family: "bebas-neue";
+    font-size: 64px;
+}
+
+.videoContainer{
+    min-height: 500px;
+}

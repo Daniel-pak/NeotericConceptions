@@ -6,14 +6,19 @@
     <title>Gabrielle Fonrouge</title>
     <!---- Bootstrap --->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    
+
+    <!--- Fonts --->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
+
     <!--- CSS --->
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="styles/about.css">
-    
-    <!--- Fonts --->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="styles/print.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/radio.css">
+    <link rel="stylesheet" href="styles/video.css">
+
 </head>
 
 <body data-spy='scroll' data-target='#scrollSpyList'>
@@ -51,8 +56,8 @@
     <hr>
     <div class="container aboutContainer" id='about'>
         <div class="row">
-            <h4 class='text-center capital' class='parallax2' data-parallax='scroll' data-image-src="/path/to/image.jpg">About Me</h4>
-            <div class="container">
+            <h1 class='text-center capital aboutmetitle' data-parallax='scroll' data-image-src="/path/to/image.jpg">About Me</h1>
+            <div class="container aboutContainer">
                 <div class="col-sm-7">
                     <p>Gabrielle Fonrouge is a multimedia journalist working as a part-time staff reporter at the New York Post and a freelance reporter for WSHU Public Radio (NPR). Her work has appeared in VICE, National Public Radio and NY1 News. She has a background in social justice, international affairs and global development. Covering stories across the tristate area, Gabrielle has covered notable events such as the Philadelphia Amtrak crash, the Etan Patz trial, the Harlem Explosion, the Metro North Derailment, the 2013 NYC Mayoral Race and the 2013 MLB All-Star games. She has considerable experience covering breaking news and crime and has also worked as an assignment desk researcher and field producer.
                         <br>
@@ -69,7 +74,7 @@
     </div>
     <hr>
     <div class="container printContainer" id='print'>
-        <h4 class='text-center capital'>Print</h4>
+        <h4 class='text-center capital printtitle'>Print</h4>
         <div class="row">
             <select name="" id="">
                 <option value="">NY Post</option>
@@ -124,7 +129,7 @@
     <hr>
     <div class="container radioContainer" id='radio'>
         <div class="text-center capital">
-            <h4>Radio</h4>
+            <h1 class="radiotitle">Radio</h1>
             <h6>A collection of stories broadcasted for WSHU Public Radio and National Public Radio</h6>
         </div>
         <audio controls>
@@ -138,7 +143,7 @@
     <div class="container videoContainer" id='video'>
         <div class="row">
             <div class="col-sm-12">
-                <h4 class='text-center capital'>Video</h4>
+                <h1 class='text-center capital videotitle'>Video</h1>
                 <div class="row">
                     <div class="col-sm-4">
                         <iframe width="273" height="220" src="https://www.youtube.com/embed/FIpTzfr4U5g" frameborder="0" allowfullscreen></iframe>
@@ -155,9 +160,9 @@
     </div>
     <hr>
     <div class="container contactContainer" id='contact'>
-        <h4 class='capital text-center'>Contact me</h4>
+        <h4 class='capital text-center contacttitle'>Contact</h4>
         <div class="row">
-            <div class="col-sm-8 col-sm-offset-2">
+            <div class="col-sm-10 col-sm-offset-1">
                 <form>
                     <div class="form-group">
                         <label>Name</label>
@@ -168,7 +173,9 @@
                         <input type="text" class='form-control'>
                         <label>Message</label>
                         <textarea name="" id="" cols="30" rows="10" class='form-control'></textarea>
-                        <button id='contactButton' class='btn'>Submit</button>
+                        <div class="btn-container">
+                        <button id='contactButton' class='btn contactbutton'>Submit</button>
+                        </div>
                     </div>
                 </form>
             </div>
