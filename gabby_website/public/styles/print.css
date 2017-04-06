@@ -1,27 +1,23 @@
-.printContainer{
-    background-image: url("../images/paper.jpg")
+.printContainer {
+    color: black;
+    background-image: url("../images/nyc.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.printtitle{
+
+.printtitle {
     font-family: "bebas-neue";
     font-size: 64px;
 }
 
-<<<<<<< HEAD
-.vice-text { 
+.vice-text {
     margin-top: -20px;
 }
 
-.nyPost { 
-    margin-top: 10px; 
-    margin-bottom: 10px;
-    box-shadow: 5px 5px 5px #888888;
-=======
-.articleTitle{
-    color: black;
-}
 
-.articleTitle:hover{
+.articleTitle:hover {
     font-size: 26px;
     color: red;
->>>>>>> aa4f0456d328e905e03221a9c483bbd75bf3229c
 }
