@@ -33,12 +33,12 @@
             </div>
             <div class="collapse navbar-collapse scrollSpyList" id="collapse">
                 <ul class="nav navbar-nav">
-                    <li><a data-toggle="collapse" data-target="#collapse" href="#home">Home</a></li>
-                    <li><a data-toggle="collapse" data-target="#collapse" href="#about">About</a></li>
-                    <li><a data-toggle="collapse" data-target="#collapse" href="#print">Print</a></li>
-                    <li><a data-toggle="collapse" data-target="#collapse" href="#radio">Radio</a></li>
-                    <li><a data-toggle="collapse" data-target="#collapse" href="#video">Video</a></li>
-                    <li><a data-toggle="collapse" data-target="#collapse" href="#contact">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#print">Print</a></li>
+                    <li><a href="#radio">Radio</a></li>
+                    <li><a href="#video">Video</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -53,6 +53,7 @@
             <h3 class="journalist">Journalist</h3>
         </div>
     </div>
+
     <div class="container aboutContainer" id='about'>
         <div class="row">
             <h1 class='text-center capital aboutmetitle' data-parallax='scroll' data-image-src="/path/to/image.jpg">About Me</h1>
@@ -71,13 +72,16 @@
             </div>
         </div>
     </div>
+
     <div class="container printContainer" id='print'>
         <h4 class='text-center capital printtitle'>Print</h4>
         <div class="row">
-            <select id="source">
+            <div class="col-sm-3">
+                <select id="source" class='form-control'>
                 <option value="sourceNY">NY Post</option>
                 <option value="sourceVice">Vice</option>
             </select>
+            </div>
             <div class="col-sm-12">
                 <div class="row">
                     <div id='nyPost'>
@@ -162,11 +166,25 @@
             <h1 class="radiotitle col-sm-12">Radio</h1>
             <h6 class="col-sm-12">A collection of stories broadcasted for WSHU Public Radio and National Public Radio</h6>
         </div>
-        <div class="audioContainer col-sm-12 col-md-12 col-lg-12">
-            <audio controls class="audio">
-                <source src=''>
+        <div class="audioContainer col-sm-12">
+            <div class="row">
+                <div class="col-sm-4 radioBox">
+                    <h4><a href="http://wshu.org/post/fda-calls-powdered-caffeine-unsafe">FDA Calls Powdered Caffeine Unsafe</a></h4>
+                    <p>The Food and Drug Administration has sent enforcement letters to five dietary supplement companies that sell pure powdered caffeine.</p>
+                    <audio controls class="audio">
+                    <source src=''>
                 <!-- audio tags here maybe put these on the back end'. App side -->
-            </audio>
+                </audio>
+                </div>
+                <div class="col-sm-4 radioBox">
+                    <h4><a href="http://wshu.org/post/cleanup-continues-li-after-heavy-rains-caused-record-flooding">Cleanup Continues on LI After Heavy Rains Caused Record Flooding</a></h4>
+                    <p>
+                        Torrential rains across Long Island broke a New York state record on Wednesday with over thirteen inches in less than twenty four hours. That's the highest amount of rainfall since Hurricane Irene in 2011.</p>
+                    <audio src="" controls class='audio'>
+                        <source src=''>
+                    </audio>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -231,9 +249,10 @@
             </div>
         </div>
     </div>
+
     <footer class="mainFoot">
         <div class="footContainer">
-            <p class="copy">Copyright © 2017. Gabby Fonrouge</p>
+            <p class="copy">Copyright © 2017. Gabrielle Fonrouge</p>
             <p class="designed">Designed by <a href="http://midtowndev.io">Midtown Dev Shop</a></p>
             <!--<i class="fa fa-info-circle" aria-hidden="true"></i>-->
         </div>

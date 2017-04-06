@@ -35,3 +35,15 @@
     max-height: 150px;
     border: black 2px solid;
 }
+
+.radioBox { 
+    padding: 10px 5px 10px 5px; 
+    background-color: white; 
+    opacity: .8; 
+    margin: 0px 5px 0px 5px;
+    
+}
+
+.radioBox p { 
+    color: black;
+}
