@@ -54,3 +54,7 @@
 .email{
     color: white;
 }
+
+.email:hover{
+    color: red;
+}
