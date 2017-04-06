@@ -10,6 +10,10 @@ body {
     font-size: 14px;
 }
 
+<<<<<<< HEAD
+.container {
+    padding-top: 50px;
+=======
 .footContainer {
     text-align: center;
     color: white;
@@ -32,4 +36,5 @@ body {
 
 .designed a{
     color: dimgrey;
+>>>>>>> aa4f0456d328e905e03221a9c483bbd75bf3229c
 }
