@@ -1,3 +1,12 @@
+.contactContainer {
+    min-width: 100%;
+    background-image: url("../images/paper.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .contacttitle {
     font-size: 64px;
     font-family: 'bebas-neue';
@@ -6,15 +15,15 @@
 .contactbutton {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
+    font-weight: bold;
+    font-size: 20px;
     height: 40px;
     width: 150px;
     letter-spacing: 4px;
     text-align: center;
     background: none;
-    color: black;
-    border: black 2px solid;
+    color: white;
+    border: white 2px solid;
 }
 
 .btn-container {
@@ -25,6 +34,15 @@
 
 .contactbutton:hover {
     transition: ease-in-out .4s;
+    color: black;
+    background-color: white;
+}
+
+.formContainer {
+    padding-top: 10px;
     color: white;
     background-color: black;
+    border: white 2px solid;
+    opacity: .8;
+    margin-bottom: 20px;
 }
