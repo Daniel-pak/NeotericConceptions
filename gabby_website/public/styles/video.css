@@ -36,3 +36,11 @@
         margin-right: 30px;
     }
 }
+
+.yt{
+    color: black;
+}
+
+.yt:hover{
+    color: red;
+}
