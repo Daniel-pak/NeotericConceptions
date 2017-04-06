@@ -1,3 +1,7 @@
+.contactInfo{
+    text-align: center;
+    color: white;
+}
 .contactContainer {
     min-width: 100%;
     background-image: url("../images/paper.jpg");
@@ -45,4 +49,8 @@
     border: white 2px solid;
     opacity: .8;
     margin-bottom: 20px;
+}
+
+.email{
+    color: white;
 }
