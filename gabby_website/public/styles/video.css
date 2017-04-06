@@ -6,3 +6,18 @@
 .videoContainer{
     min-height: 500px;
 }
+
+.videos{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 991px) {
+    .vid {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}

@@ -3,13 +3,38 @@
     src: url("../fonts/bebasneue.ttf");
 }
 
-body { 
+body {
     position: relative;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 14px;
 }
 
+<<<<<<< HEAD
 .container {
     padding-top: 50px;
+=======
+.footContainer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.designed {
+    color: dimgrey;
+    margin-right: 20px;
+}
+
+.designed a{
+    color: dimgrey;
+>>>>>>> aa4f0456d328e905e03221a9c483bbd75bf3229c
 }

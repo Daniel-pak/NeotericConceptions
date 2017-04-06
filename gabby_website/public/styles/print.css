@@ -1,12 +1,9 @@
-.printContainer { 
-    
-}
-
 .printtitle{
     font-family: "bebas-neue";
     font-size: 64px;
 }
 
+<<<<<<< HEAD
 .vice-text { 
     margin-top: -20px;
 }
@@ -15,4 +12,13 @@
     margin-top: 10px; 
     margin-bottom: 10px;
     box-shadow: 5px 5px 5px #888888;
+=======
+.articleTitle{
+    color: black;
+}
+
+.articleTitle:hover{
+    font-size: 26px;
+    color: red;
+>>>>>>> aa4f0456d328e905e03221a9c483bbd75bf3229c
 }
