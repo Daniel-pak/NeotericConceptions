@@ -1,8 +1,13 @@
-.printContainer { 
-    
-}
-
 .printtitle{
     font-family: "bebas-neue";
     font-size: 64px;
+}
+
+.articleTitle{
+    color: black;
+}
+
+.articleTitle:hover{
+    font-size: 26px;
+    color: red;
 }
