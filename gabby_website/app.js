@@ -3,9 +3,11 @@ $(document).ready(function () {
     $('body').scrollspy({
         target: '.scrollSpyList'
     });
+    
     $('[data-spy="scroll"]').each(function () {
         var $spy = $(this).scrollspy('refresh')
     })
+    
     $('#vice').hide();
 
     //select options here
