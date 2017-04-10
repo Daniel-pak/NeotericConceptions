@@ -53,3 +53,35 @@
 .viceImg {
     height: 300px;
 }
+
+.nyPost { 
+    width: 300px;
+}
+
+.nyPostContainer { 
+    width: 90%;
+    padding-left: 5%;
+    align-self: center;
+    display: flex;
+}
+
+.owl-prev {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    margin-left: -20px;
+    display: block!IMPORTANT;
+    border:0px solid black;
+}
+
+.owl-next {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    right: -25px;
+    display: block!IMPORTANT;
+    border:0px solid black;
+}
+.owl-prev i, .owl-next i {transform : scale(1,6); color: #ccc;}
