@@ -14,6 +14,7 @@ body {
 .container {
     padding-top: 50px;
 }
+
 .footContainer {
     text-align: center;
     color: white;
@@ -34,6 +35,11 @@ body {
     margin-right: 20px;
 }
 
-.designed a{
+.designed a {
     color: dimgrey;
+}
+
+.carousel-item + .carousel-item + .nyPost{
+    margin-left: 15px;
+    margin-right: 15px;
 }
