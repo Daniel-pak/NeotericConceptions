@@ -8,13 +8,19 @@ $(document).ready(function () {
 
 
     $(".owl-carousel").owlCarousel({
+        items: 3,
+        mergeFit: false,
         nav: true,
         responsive: {
-
+            responsiveBaseElement: document.getElementById("BigPostContainer"),
+            responsiveRefreshRate: 500
         },
         slideBy: 3, 
         margin: 20,
-        navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>']
+        autoWidth: false,
+        navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+        animateOut: true,
+        animateIn: true
     })
     /////////
     $('[data-spy="scroll"]').each(function () {
