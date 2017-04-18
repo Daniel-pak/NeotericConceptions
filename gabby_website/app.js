@@ -11,7 +11,7 @@ $(document).ready(function () {
         nav: true,
         responsive: {
             responsiveBaseElement: document.getElementById("BigPostContainer"),
-            responsiveRefreshRate: 500
+            responsiveRefreshRate: 1000
         },
         slideBy: 3, 
         margin: 20,
