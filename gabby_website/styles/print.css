@@ -1,0 +1,91 @@
+.printContainer {
+    color: black;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.printtitle {
+    font-family: "bebas-neue";
+    font-size: 64px;
+}
+
+.vice-text {
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.articleTitle{
+    color: black;
+}
+
+.articleTitle:hover {
+    color: red;
+}
+
+.nyPostTitle {
+    color: red;
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.viceTitle {
+    color: red;
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+
+.vice {
+    text-align: center;
+    display: flex;
+/*    justify-content: center;*/
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.viceImg {
+    height: 300px;
+}
+
+.nyPostContainer { 
+    width: 90%;
+    padding-left: 5%;
+}
+
+.owl-item{
+    display: inline-block;
+}
+
+.owl-prev {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    margin-left: -20px;
+    display: block!IMPORTANT;
+    border:0px solid black;
+}
+
+.owl-next {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    right: -25px;
+    display: block!IMPORTANT;
+    border:0px solid black;
+}
+.owl-prev i, .owl-next i {transform : scale(1,6); color: #ccc;}
+
+@media screen and(max-width: 992px){
+    .nyPost{
+        width: 350px;
+    }
+}

@@ -1,0 +1,46 @@
+.videotitle{
+    font-family: "bebas-neue";
+    font-size: 64px;
+}
+
+.videoContainer{
+    min-height: 500px;
+/*
+    background-image: url("../images/video.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+*/
+}
+
+.videos{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.vid{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 991px) {
+    .vid {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+.yt{
+    color: black;
+}
+
+.yt:hover{
+    color: red;
+}

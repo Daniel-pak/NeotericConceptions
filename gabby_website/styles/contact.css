@@ -1,0 +1,60 @@
+.contactInfo{
+    text-align: center;
+    color: white;
+}
+.contactContainer {
+    min-width: 100%;
+    background-image: url("../images/paper.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contacttitle {
+    font-size: 64px;
+    font-family: 'bebas-neue';
+}
+
+.contactbutton {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    letter-spacing: 4px;
+    text-align: center;
+    background: none;
+    color: white;
+    border: white 2px solid;
+}
+
+.btn-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contactbutton:hover {
+    transition: ease-in-out .4s;
+    color: black;
+    background-color: white;
+}
+
+.formContainer {
+    padding-top: 10px;
+    color: white;
+    background-color: black;
+    border: white 2px solid;
+    opacity: .8;
+    margin-bottom: 20px;
+}
+
+.email{
+    color: white;
+}
+
+.email:hover{
+    color: red;
+}

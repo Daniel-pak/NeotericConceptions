@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en" ng-app="ShanePortfolioApp">
+
+<head>
+    <!---- meta data ---->
+    <meta charset="UTF-8">
+
+    <title>Shane Nepvue</title>
+    <!---- Bootstrap 4.0 ---->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <!---- CSS ---->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/work.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/contact.css">
+
+    <!---- Fonts ---->
+    <link href="./fonts/LeagueSpartan-Bold.otf" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i" rel="stylesheet">
+    <!---- font-family: 'Libre Baskerville', serif --->
+
+    <!---- Icons --->
+    <script src="https://use.fontawesome.com/6c295c78cb.js"></script>
+
+
+</head>
+
+
+    
+<body>
+   <!-- turn this into a directive -->
+    <nav class="navbar navba-collapse collapse navbar-toggleable-sm fixed-top navbar-light">
+        <button class="navbar-toggler-right navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse pull-left" id="navbarToggle">
+            <div class="navDiv">
+                <ul class="nav navbar-nav mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#/home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#/about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#/portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#/contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <ng-view>
+        
+    </ng-view>
+
+    <footer>
+        <div class="footContainer container-fluid fixed-bottom">
+            <div class='credits'>Created by <a href="midtowndev.io">Midtown Dev Shop</a></div>
+            <!-- media icons -->
+            <div class="icons">
+                <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/MidtownDevShop"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                <a href="http://www.imdb.com/name/nm5314753/"><i class="fa fa-imdb" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+
+<!---- Third Parties ---->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src='app.js'></script>
+<script src="contact/contact.js"></script>
+<script src='about/about.js'></script>
+<script src='portfolio/portfolio.js'></script>
+<script src='home/home.js'></script>
+</html>
