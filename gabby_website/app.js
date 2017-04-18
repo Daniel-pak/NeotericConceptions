@@ -8,8 +8,6 @@ $(document).ready(function () {
 
 
     $(".owl-carousel").owlCarousel({
-        items: 3,
-        mergeFit: false,
         nav: true,
         responsive: {
             responsiveBaseElement: document.getElementById("BigPostContainer"),

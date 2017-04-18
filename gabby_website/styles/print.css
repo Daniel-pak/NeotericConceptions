@@ -55,10 +55,8 @@
 }
 
 .nyPostContainer { 
-    width: 100%;
+    width: 90%;
     padding-left: 5%;
-    align-self: center;
-    display: flex;
 }
 
 .owl-item{
@@ -85,3 +83,9 @@
     border:0px solid black;
 }
 .owl-prev i, .owl-next i {transform : scale(1,6); color: #ccc;}
+
+@media screen and(max-width: 992px){
+    .nyPost{
+        width: 350px;
+    }
+}
