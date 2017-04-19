@@ -1,1 +1,45 @@
+.contactDiv {
+    color: white;
+    background: url("../images/contactbackground.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
 
+.contactDivContainer {
+    width: 100%;
+}
+
+.contactContent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.formContainer {
+    color: white;
+    background-color: black;
+    opacity: .7;
+    padding: 20px;
+    width: 70vw;
+}
+
+.form-group label {
+    width: 100%;
+}
+
+.emailButton {
+    background: none;
+    color: white;
+    border: 2px white solid;
+}
+
+.emailButton:hover {}

@@ -1,4 +1,36 @@
-.name { 
+.contentContainer {
+    min-height: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.name {
     display: inline;
     vertical-align: center;
+}
+
+.homeImg {
+    padding: 10px;
+    margin-top: 50px;
+    max-width: 100%;
+}
+
+.shane {
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+}
+
+.shaneact {
+    text-align: center;
+    width: 100%;
+    font-style: italic;
+}
+
+.homeTextContainer {
+    margin-top: 50px;
 }

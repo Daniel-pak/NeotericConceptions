@@ -1,3 +1,11 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    min-height: 60px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    background-color: lightgrey;
+}
 .footContainer { 
     display: inline; 
     background-color: black;
