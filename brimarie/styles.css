@@ -1,0 +1,9 @@
+.title { 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container { 
+    padding-top: 65px;
+}

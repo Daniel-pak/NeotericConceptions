@@ -1,0 +1,49 @@
+.radiotitle {
+    font-family: "bebas-neue";
+    font-size: 64px;
+    display: inline;
+}
+
+.radioContainer {
+    min-width: 100%;
+    color: white;
+    min-height: 500px;
+    background-image: url("../images/radio.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.audio{
+    max-width: 400px;
+}
+
+.audioContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.radioText{
+    color: black;
+    padding-top: 10px;
+    background-color: white;
+    opacity: .8;
+    max-height: 150px;
+    border: black 2px solid;
+}
+
+.radioBox { 
+    padding: 10px 5px 10px 5px; 
+    background-color: white; 
+    opacity: .8; 
+    margin: 0px 5px 0px 5px;
+    
+}
+
+.radioBox p { 
+    color: black;
+}
