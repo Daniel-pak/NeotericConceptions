@@ -1,6 +1,14 @@
 .aboutDiv {
-margin-top: 100px;
+    color: white;
+    background: url("../images/movie.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    min-height: 100vh;
 }
+
 .abtImg {
     max-width: 100%;
     border-radius: 50%;
