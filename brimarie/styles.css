@@ -45,8 +45,7 @@ body {
     letter-spacing: 5px;
 }
 
-.container {
-}
+.container {}
 
 .briContainer {
     display: flex;
@@ -59,7 +58,8 @@ body {
 .homeContainer {
     height: 100vh;
 }
-.contentContainHome{
+
+.contentContainHome {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -81,4 +81,93 @@ b {
 .date {
     font-family: BebasThin;
     font-size: 26px;
+}
+
+.musicContainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.aboutContainer {
+    margin-top: 25px;
+    min-height: 100vh;
+}
+
+.pressContainer {
+    margin-top: 25px;
+    min-height: 100vh;
+}
+
+.showContainer {
+    margin-top: 25px;
+}
+
+.contactContainer {
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
+
+.musicImg {
+    padding: 0px;
+}
+
+.musicImg img {
+    margin-bottom: 20px;
+    max-width: 90%;
+}
+
+.formContainer {
+    font-family: Bebas;
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.emailButton {
+    background: none;
+    border: black 2px solid;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emailButton:hover {
+    transition: ease-in-out .2s;
+    background-color: black;
+    color: white;
+}
+
+.footContainer {
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.designed{
+    color: dimgrey;
+    margin-right: 20px;
+}
+
+.designed a{
+    color: dimgrey;
 }

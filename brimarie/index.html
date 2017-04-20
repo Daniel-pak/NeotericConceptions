@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
-    
+
     <!--- Fonts --->
     <link href="./fonts/BebasNeue%20Bold.otf" rel="stylesheet">
     <link href="./fonts/BebasNeueBook.otf" rel="stylesheet">
     <link href="./fonts/BebasNeueLight.otf" rel="stylesheet">
     <link href="./fonts/BebasNeueRegular.otf" rel="stylesheet">
     <link href="./fonts/BebasNeueThin.otf" rel="stylesheet">
-    
+
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Marck+Script" rel="stylesheet">
 
 </head>
@@ -27,7 +27,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                  </button>
+                </button>
                 <a class="navbar-brand" href="#">Bri Marie Music</a>
             </div>
             <div class='collapse navbar-collapse' id='navbar_items'>
@@ -56,10 +56,10 @@
     <div class="container musicContainer" id='music'>
         <div class="row">
             <h2 class='text-center heading'>Music</h2>
-            <div class="col-sm-6">
+            <div class="col-sm-6 col-xs-12 musicImg">
                 <img class='img-responsive' src="https://static.wixstatic.com/media/7831ee_8f8bfb8ae51f4e8f945168c5359e9dce~mv2.jpg/v1/fill/w_853,h_1022,al_c,q_85/7831ee_8f8bfb8ae51f4e8f945168c5359e9dce~mv2.webp" alt="">
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6 col-xs-12 musicImg">
                 <img class='img-responsive' src="https://static.wixstatic.com/media/7831ee_3b8915a649d240958b87fbb7323554db~mv2.jpg/v1/fill/w_853,h_1022,al_c,q_85/7831ee_3b8915a649d240958b87fbb7323554db~mv2.webp" alt="">
             </div>
         </div>
@@ -67,13 +67,15 @@
 
         </div>
     </div>
-    
+
     <div class="container aboutContainer" id='about'>
         <div class="row">
             <h2 class='text-center heading'>About</h2>
             <div class="col-sm-5 col-sm-offset-1">
                 <div>
-                    <p class="text">Hometown: Hershey, Pennsylvania <br> Age: 23 <br>Enjoys: Long Walks on the Beach. Puppies/Kittens, Singing, Video Games, Venti Iced Soy Caramel Macchiatos</p>
+                    <p class="text">Hometown: Hershey, Pennsylvania
+                        <br> Age: 23
+                        <br>Enjoys: Long Walks on the Beach. Puppies/Kittens, Singing, Video Games, Venti Iced Soy Caramel Macchiatos</p>
                     <br>
                     <p class="text">Bri Marie is a smooth R&amp;B singer, whose aspirations took her from dreaming in her small hometown (Hershey, Pennsylvania) to actually reaching for those dreams in New York City. While her passion for singing developed in childhood, her love for songwriting blossomed just 3 years ago as it became a form of expression. Bri Marie combines her singing/songwriting talents with attention to detail in her debut EP 'Beginnings' to not only show the songstress' feelings in art form, but provide an enjoyable experience to listeners. </p>
                     <br>
@@ -84,8 +86,8 @@
                 <img class='img-responsive' src="https://static.wixstatic.com/media/7831ee_abc2fd2568fd480e8849387d9ca0d887~mv2.png/v1/fill/w_489,h_720,al_c/7831ee_abc2fd2568fd480e8849387d9ca0d887~mv2.png" alt="">
             </div>
         </div>
-        
-        <div class="row">
+
+        <div class="row pressContainer">
             <h2 class="heading">Featured Press</h2>
             <div class="col-sm-4">
                 <a href="http://www.dinnerland.tv/single-post/2017/02/10/FLAVOR---Brix-Anna-Petwolf">
@@ -108,7 +110,7 @@
             </div>
         </div>
     </div>
-    
+
     <div class="container showContainer" id='shows'>
         <div class='upcomingContainer'>
             <div class="row">
@@ -121,11 +123,11 @@
             </div>
         </div>
     </div>
-    
+
     <div class="container contactContainer" id='contact'>
         <div class="formContainer">
-           <h2 class='text-center heading'>Contact</h2>
-            <div class="form-group" >
+            <h2 class='text-center heading'>Contact</h2>
+            <div class="form-group">
                 <label class='white' for="name">Name:</label>
                 <input type="text" class="form-control" id="name">
             </div>
@@ -141,9 +143,18 @@
                 <label class='white' for="comment">Comment:</label>
                 <textarea class="form-control" rows="5" id="comment"></textarea>
             </div>
-            <button class="btn emailButton">Shoot Me an Email</button>
+            <div class="buttonContainer">
+                <button class="btn emailButton">Shoot Me an Email</button>
+            </div>
         </div>
     </div>
+    <footer class="mainFoot">
+        <div class="footContainer">
+            <p class="copy">Copyright © 2017. Bri Marie Music</p>
+            <p class="designed">Designed by <a href="http://midtowndev.io">Midtown Dev Shop</a></p>
+            <!--<i class="fa fa-info-circle" aria-hidden="true"></i>-->
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
     <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
