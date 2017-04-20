@@ -1,1 +1,20 @@
+.abtImg {
+    max-width: 100%;
+    border-radius: 50%;
+}
 
+.aboutTitle {
+    text-align: center;
+    margin-top: 25px;
+    text-transform: capitalize;
+}
+
+.titleContainer {
+    width: 100%;
+}
+
+.aboutImageContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
