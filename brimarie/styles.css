@@ -1,9 +1,69 @@
-.title { 
+@font-face {
+    font-family: BebasBold;
+    src: url("./fonts/BebasNeue%20Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: BebasBook;
+    src: url("./fonts/BebasNeueBook.otf") format("opentype");
+}
+
+@font-face {
+    font-family: BebasLight;
+    src: url("./fonts/BebasNeueLight.otf") format("opentype");
+}
+
+@font-face {
+    font-family: BebasThin;
+    src: url("./fonts/BebasNeueThin.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Bebas;
+    src: url("./fonts/BebasNeueRegular.otf") format("opentype");
+}
+
+.title {
+    text-align: center;
+    font-family: BebasBold;
+    font-size: 48px;
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
+.bri {
+    max-height: 500px;
+}
+
+.heading {
+    text-align: center;
+    font-family: Bebas;
+    font-size: 36px;
+    letter-spacing: 5px;
+}
+
+.container {
+}
+
+.briContainer {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
     align-content: center;
 }
 
-.container { 
-    padding-top: 65px;
+.homeContainer {
+    height: 100vh;
+}
+.contentContainHome{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
 }
