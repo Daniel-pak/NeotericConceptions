@@ -67,3 +67,18 @@ body {
     flex-wrap: wrap;
     height: 100vh;
 }
+
+b {
+    font-family: BebasBook;
+    letter-spacing: 2px;
+    font-size: 22px;
+}
+
+.text {
+    font-size: 16px;
+}
+
+.date {
+    font-family: BebasThin;
+    font-size: 26px;
+}
