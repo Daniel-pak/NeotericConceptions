@@ -41,5 +41,32 @@
     color: white;
     border: 2px white solid;
 }
+.email {
+    color: white;
+}
 
-.emailButton:hover {}
+.tel {
+    color: white;
+}
+
+.email:hover{
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.tel:hover{
+    text-decoration: none;
+    color: dodgerblue;
+}
+.emailButton:hover {
+    transition: ease-in-out .2s;
+    background-color: white;
+    color: dodgerblue;
+}
+
+.emailButtonA {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
