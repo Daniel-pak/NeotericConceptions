@@ -181,4 +181,10 @@ b {
     color: dimgrey;
 }
 
+.aboutTextContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
