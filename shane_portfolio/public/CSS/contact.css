@@ -1,4 +1,5 @@
 .contactDiv {
+    font-family: CooperLight;
     color: white;
     background: url("../images/contactbackground.jpg");
     background-attachment: fixed;
@@ -25,6 +26,7 @@
 }
 
 .formContainer {
+    font-family: CooperBook;
     color: white;
     background-color: black;
     opacity: .7;

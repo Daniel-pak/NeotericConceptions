@@ -23,12 +23,13 @@
     text-transform: uppercase;
     text-align: center;
     width: 100%;
+    font-family: CooperLight;
 }
 
 .shaneact {
     text-align: center;
     width: 100%;
-    font-style: italic;
+    font-family: CooperBook;
 }
 
 .homeTextContainer {
