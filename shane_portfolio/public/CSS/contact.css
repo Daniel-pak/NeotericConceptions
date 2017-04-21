@@ -72,3 +72,9 @@
     padding-left: 30px;
     padding-right: 30px;
 }
+
+@media screen and (max-width: 992px) and (-webkit-min-device-pixel-ratio: 2) {
+    .aboutDiv {
+        background-image: url("../images/contactmobile.jpg");
+    }
+}

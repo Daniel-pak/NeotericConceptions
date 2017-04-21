@@ -47,3 +47,9 @@
 .radioBox p { 
     color: black;
 }
+
+@media screen and (max-width: 992px) and (-webkit-min-device-pixel-ratio: 2) {
+    .radioContainer {
+        background-image: url("../images/radiomobile.jpg");
+    }
+}

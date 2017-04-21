@@ -31,3 +31,9 @@
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 992px) and (-webkit-min-device-pixel-ratio: 2) {
+    .aboutDiv {
+        background-image: url("../images/moviemobile.jpg");
+    }
+}

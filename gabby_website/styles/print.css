@@ -87,6 +87,10 @@
 }
 .owl-prev i, .owl-next i {transform : scale(1,6); color: #ccc;}
 
+.owl-carousel {
+    max-width: 100vw;
+}
+
 @media screen and(max-width: 992px){
     .nyPost{
         width: 350px;
