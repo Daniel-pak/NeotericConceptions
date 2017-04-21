@@ -49,14 +49,17 @@
 }
 
 @media screen and (max-width: 992px) and (-webkit-min-device-pixel-ratio: 2) {
-    .radioTitle {
+    .radiotitle {
         font-size: 100px;
     }
     .radioContainer {
         background-image: url("../images/radiomobile.jpg");
         background-attachment: scroll;
     }
-    .radioText {
+    .audiotext {
+        font-size: 26px;
+    }
+    .audiotitle {
         font-size: 32px;
     }
 }

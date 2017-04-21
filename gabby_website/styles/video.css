@@ -34,10 +34,10 @@
         font-size: 100px;
     }
     .vidtitle {
-        font-size: 46px;
+        font-size: 32px;
     }
     .vidtext {
-        font-size: 32px;
+        font-size: 26px;
     }
 }
 @media screen and (max-width: 991px) {
