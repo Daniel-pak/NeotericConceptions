@@ -30,6 +30,7 @@
 
 @media screen and (min-width: 992px) {
     .aboutContainer {
-        background-image: url("../images/nycmobile.jpg")
+        background-image: url("../images/nycmobile.jpg");
+        background-attachment: scroll;
     }
 }
