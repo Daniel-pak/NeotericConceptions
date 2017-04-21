@@ -61,7 +61,16 @@
 
 @media screen and (max-width: 992px) and (-webkit-min-device-pixel-ratio: 2) {
     .contactContainer {
-        background-image: url("../images/contactmobile.jpg");
+        background-image: url("../images/papermobile.jpg");
         background-attachment: scroll;
+    }
+    .contacttitle {
+        font-size: 100px;
+    }
+    .contactInfo {
+        font-size: 46px;
+    }
+    .formContainer {
+        font-size: 32px;
     }
 }

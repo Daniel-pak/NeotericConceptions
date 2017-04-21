@@ -96,3 +96,14 @@
         width: 350px;
     }
 }
+@media screen and (max-width: 992px) and (-webkit-min-device-pixel-ratio: 2) {
+    .articleTitle {
+        font-size: 46px;
+    }
+    .printTitle {
+        font-size: 100px;
+    }
+    .articleText {
+        font-size: 32px;
+    }
+}

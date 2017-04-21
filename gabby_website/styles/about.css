@@ -28,9 +28,15 @@
     margin-bottom: 20px;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 992px) and (-webkit-min-device-pixel-ratio: 2) {
     .aboutContainer {
         background-image: url("../images/nycmobile.jpg");
         background-attachment: scroll;
+    }
+    .aboutmetitle {
+        font-size: 100px;
+    }
+    .textContainer {
+        font-size: 32px;
     }
 }

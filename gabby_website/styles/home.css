@@ -35,3 +35,12 @@
         margin-top: 5%;
     }
 }
+
+@media screen and (max-width: 992px) and (-webkit-min-device-pixel-ratio: 2) {
+    .name {
+        font-size: 100px;
+    }
+    .journalist {
+        font-size: 80px;
+    }
+}
