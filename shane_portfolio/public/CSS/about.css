@@ -18,6 +18,8 @@
     text-align: center;
     margin-top: 25px;
     text-transform: capitalize;
+    font-family: CooperLight;
+    font-size: 48px;
 }
 
 .titleContainer {
@@ -28,4 +30,10 @@
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 992px) and (-webkit-min-device-pixel-ratio: 2) {
+    .aboutDiv {
+        background-image: url("../images/moviemobile.jpg");
+    }
 }

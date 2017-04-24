@@ -1,4 +1,5 @@
 .contactDiv {
+    font-family: CooperLight;
     color: white;
     background: url("../images/contactbackground.jpg");
     background-attachment: fixed;
@@ -25,6 +26,7 @@
 }
 
 .formContainer {
+    font-family: CooperBook;
     color: white;
     background-color: black;
     opacity: .7;
@@ -69,4 +71,10 @@
     padding-bottom: 10px;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+@media screen and (max-width: 992px) and (-webkit-min-device-pixel-ratio: 2) {
+    .aboutDiv {
+        background-image: url("../images/contactmobile.jpg");
+    }
 }

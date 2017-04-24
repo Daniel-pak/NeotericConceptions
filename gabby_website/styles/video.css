@@ -29,11 +29,22 @@
     align-items: center;
     flex-wrap: wrap;
 }
-
+@media screen and (max-width: 992px) and (-webkit-min-device-pixel-ratio: 2) {
+    .videotitle {
+        font-size: 100px;
+    }
+    .vidtitle {
+        font-size: 32px;
+    }
+    .vidtext {
+        font-size: 26px;
+    }
+}
 @media screen and (max-width: 991px) {
     .vid {
         margin-left: 30px;
         margin-right: 30px;
+        width: 100%;
     }
 }
 

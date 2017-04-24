@@ -58,3 +58,19 @@
 .email:hover{
     color: red;
 }
+
+@media screen and (max-width: 992px) and (-webkit-min-device-pixel-ratio: 2) {
+    .contactContainer {
+        background-image: url("../images/papermobile.jpg");
+        background-attachment: scroll;
+    }
+    .contacttitle {
+        font-size: 100px;
+    }
+    .contactstuff{
+        font-size: 42px;
+    }
+    .formContainer {
+        font-size: 26px;
+    }
+}

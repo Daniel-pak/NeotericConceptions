@@ -1,4 +1,5 @@
 .workDiv {
+    font-family: CooperLight;
     margin-top: 100px;
     display: flex;
     justify-content: center;
@@ -32,12 +33,10 @@
 .reels h3{
     font-size: 36px;
 }
-/*
-.reel { 
-    width: 100% !important; 
-    height: auto !important;
+
+.subhead {
+    font-family: CooperBook;
 }
-*/
 
 @media (max-width: 1200px) {
     .photoContainer {

@@ -87,8 +87,23 @@
 }
 .owl-prev i, .owl-next i {transform : scale(1,6); color: #ccc;}
 
+.owl-carousel {
+    max-width: 100vw;
+}
+
 @media screen and(max-width: 992px){
     .nyPost{
         width: 350px;
+    }
+}
+@media screen and (max-width: 992px) and (-webkit-min-device-pixel-ratio: 2) {
+    .articleTitle {
+        font-size: 46px;
+    }
+    .printTitle {
+        font-size: 100px;
+    }
+    .articleText {
+        font-size: 32px;
     }
 }

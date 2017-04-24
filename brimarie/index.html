@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
+
+    <!--- Fonts --->
+    <link href="./fonts/BebasNeue%20Bold.otf" rel="stylesheet">
+    <link href="./fonts/BebasNeueBook.otf" rel="stylesheet">
+    <link href="./fonts/BebasNeueLight.otf" rel="stylesheet">
+    <link href="./fonts/BebasNeueRegular.otf" rel="stylesheet">
+    <link href="./fonts/BebasNeueThin.otf" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Marck+Script" rel="stylesheet">
+
 </head>
 
 <body data-spy='scroll' data-target='#navbar_items'>
@@ -17,7 +27,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                  </button>
+                </button>
                 <a class="navbar-brand" href="#">Bri Marie Music</a>
             </div>
             <div class='collapse navbar-collapse' id='navbar_items'>
@@ -32,26 +42,25 @@
         </div>
     </nav>
 
-    <div class="container" id='home'>
-        <div class="row">
-            <div class="col-sm-6">
-                <img class='img-responsive' src="https://static.wixstatic.com/media/7831ee_a6dcfcbbccfb46919e6d608b29a577e8~mv2.jpg/v1/fill/w_960,h_826,al_c,q_85/7831ee_a6dcfcbbccfb46919e6d608b29a577e8~mv2.webp" alt="">
+    <div class="container homeContainer" id='home'>
+        <div class="row contentContainHome">
+            <div class="col-sm-7 briContainer">
+                <img class='img-responsive bri' src="https://static.wixstatic.com/media/7831ee_a6dcfcbbccfb46919e6d608b29a577e8~mv2.jpg/v1/fill/w_960,h_826,al_c,q_85/7831ee_a6dcfcbbccfb46919e6d608b29a577e8~mv2.webp" alt="">
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-5">
                 <h1 class='title'>Bri Marie Music</h1>
             </div>
         </div>
     </div>
 
-    <hr>
     <div class="container musicContainer" id='music'>
-        <div class="row">
-            <h2 class='text-center'>Music</h2>
-            <div class="col-sm-6">
-                <img class='img-responsive' src="https://static.wixstatic.com/media/7831ee_8f8bfb8ae51f4e8f945168c5359e9dce~mv2.jpg/v1/fill/w_853,h_1022,al_c,q_85/7831ee_8f8bfb8ae51f4e8f945168c5359e9dce~mv2.webp" alt="">
+        <div class="row musicRow">
+            <h2 class='text-center heading'>Music</h2>
+            <div class="col-sm-6 col-xs-12 musicImg">
+                <img class='img-responsive col-sm-12 col-xs-12' src="https://static.wixstatic.com/media/7831ee_8f8bfb8ae51f4e8f945168c5359e9dce~mv2.jpg/v1/fill/w_853,h_1022,al_c,q_85/7831ee_8f8bfb8ae51f4e8f945168c5359e9dce~mv2.webp" alt="">
             </div>
-            <div class="col-sm-6">
-                <img class='img-responsive' src="https://static.wixstatic.com/media/7831ee_3b8915a649d240958b87fbb7323554db~mv2.jpg/v1/fill/w_853,h_1022,al_c,q_85/7831ee_3b8915a649d240958b87fbb7323554db~mv2.webp" alt="">
+            <div class="col-sm-6 col-xs-12 musicImg">
+                <img class='img-responsive col-sm-12 col-xs-12' src="https://static.wixstatic.com/media/7831ee_3b8915a649d240958b87fbb7323554db~mv2.jpg/v1/fill/w_853,h_1022,al_c,q_85/7831ee_3b8915a649d240958b87fbb7323554db~mv2.webp" alt="">
             </div>
         </div>
         <div class="row" id='waveform'>
@@ -61,41 +70,45 @@
 
     <div class="container aboutContainer" id='about'>
         <div class="row">
-            <h2 class='text-center'>About</h2>
-            <div class="col-sm-5 col-sm-offset-1">
-                <div>
-                    <p>Hometown: Hershey, Pennsylvania <br> Age: 23 <br>Enjoys: Long Walks on the Beach. Puppies/Kittens, Singing, Video Games, Venti Iced Soy Caramel Macchiatos</p>
-                    <br>
-                    <p>Bri Marie is a smooth R&amp;B singer, whose aspirations took her from dreaming in her small hometown (Hershey, Pennsylvania) to actually reaching for those dreams in New York City. While her passion for singing developed in childhood, her love for songwriting blossomed just 3 years ago as it became a form of expression. Bri Marie combines her singing/songwriting talents with attention to detail in her debut EP 'Beginnings' to not only show the songstress' feelings in art form, but provide an enjoyable experience to listeners. </p>
-                    <br>
-                    <h4>"Track after track on this project is raw, open, and emotional leaving us wanting to hear even more from the talented songstress." <br> - ThisIsRnB on 'Beginnings'</h4>
+            <h2 class='text-center heading'>About</h2>
+            <div class="aboutTextContainer">
+                <div class="col-sm-5 col-sm-offset-1">
+                    <div>
+                        <p class="text">Hometown: Hershey, Pennsylvania
+                            <br> Age: 23
+                            <br>Enjoys: Long Walks on the Beach. Puppies/Kittens, Singing, Video Games, Venti Iced Soy Caramel Macchiatos</p>
+                        <br>
+                        <p class="text">Bri Marie is a smooth R&amp;B singer, whose aspirations took her from dreaming in her small hometown (Hershey, Pennsylvania) to actually reaching for those dreams in New York City. While her passion for singing developed in childhood, her love for songwriting blossomed just 3 years ago as it became a form of expression. Bri Marie combines her singing/songwriting talents with attention to detail in her debut EP 'Beginnings' to not only show the songstress' feelings in art form, but provide an enjoyable experience to listeners. </p>
+                        <br>
+                        <b>"Track after track on this project is raw, open, and emotional leaving us wanting to hear even more from the talented songstress." <br> - ThisIsRnB on 'Beginnings'</b>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <img class='img-responsive col-xs-12' src="https://static.wixstatic.com/media/7831ee_abc2fd2568fd480e8849387d9ca0d887~mv2.png/v1/fill/w_489,h_720,al_c/7831ee_abc2fd2568fd480e8849387d9ca0d887~mv2.png" alt="">
                 </div>
             </div>
-            <div class="col-sm-5">
-                <img class='img-responsive' src="https://static.wixstatic.com/media/7831ee_abc2fd2568fd480e8849387d9ca0d887~mv2.png/v1/fill/w_489,h_720,al_c/7831ee_abc2fd2568fd480e8849387d9ca0d887~mv2.png" alt="">
-            </div>
         </div>
-        <hr>
-        <div class="row">
-            <h2>Featured Press</h2>
+
+        <div class="row pressContainer">
+            <h2 class="heading">Featured Press</h2>
             <div class="col-sm-4">
                 <a href="http://www.dinnerland.tv/single-post/2017/02/10/FLAVOR---Brix-Anna-Petwolf">
                     <img class='img-responsive' src="https://static.wixstatic.com/media/7831ee_96d4ff2852ec4c8cab11cd64781877cc~mv2.jpg/v1/fill/w_735,h_383,al_c,q_80/7831ee_96d4ff2852ec4c8cab11cd64781877cc~mv2.webp" alt=""></a>
                 <b>Dinner Land - #FLAVOR Brix Anna - Bedroom Eyes feat. Wordplay</b>
-                <p>February 09, 2017</p>
-                <p>"He's referring to the act of oral sex... The reason why I'm so proud of it is that although some of the lyrics are raunchy from both of us, it's executed in a way that is still so smooth....</p>
+                <p class="date">February 09, 2017</p>
+                <p class="text">"He's referring to the act of oral sex... The reason why I'm so proud of it is that although some of the lyrics are raunchy from both of us, it's executed in a way that is still so smooth....</p>
             </div>
-            <div class="col-sm-4">
-                <img class='img-responsive' src="https://static.wixstatic.com/media/7831ee_d7d51e52d232431e917c7e5cbbcfff8e~mv2_d_5184_3456_s_4_2.jpg/v1/fill/w_1074,h_560,al_c,q_85,usm_0.66_1.00_0.01/7831ee_d7d51e52d232431e917c7e5cbbcfff8e~mv2_d_5184_3456_s_4_2.webp" alt="">
+            <div class="col-sm-4 col-xs-12">
+                <img class='img-responsive col-xs-12' src="https://static.wixstatic.com/media/7831ee_d7d51e52d232431e917c7e5cbbcfff8e~mv2_d_5184_3456_s_4_2.jpg/v1/fill/w_1074,h_560,al_c,q_85,usm_0.66_1.00_0.01/7831ee_d7d51e52d232431e917c7e5cbbcfff8e~mv2_d_5184_3456_s_4_2.webp" alt="">
                 <b>This Is RnB - Listen: Emerging Artist Brix Anna Releases Debut ‘Beginnings’ EP</b>
-                <p>January 07, 2017</p>
-                <p>Emerging artist Brix Anna is looking to make a splash with her debut EP, Beginnings. Based in New York by way of Hershey, Pennsylvania, the 23 year old singer-songwriter is introducing her music to the world with smooth vocals and clever lyrics....</p>
+                <p class="date">January 07, 2017</p>
+                <p class="text">Emerging artist Brix Anna is looking to make a splash with her debut EP, Beginnings. Based in New York by way of Hershey, Pennsylvania, the 23 year old singer-songwriter is introducing her music to the world with smooth vocals and clever lyrics....</p>
             </div>
-            <div class="col-sm-4">
-                <img class='img-responsive' src="https://static.wixstatic.com/media/7831ee_5cd125ffe84442168c17e78b765c524b~mv2_d_5184_2607_s_4_2.jpg/v1/fill/w_1074,h_560,al_c,q_85,usm_0.66_1.00_0.01/7831ee_5cd125ffe84442168c17e78b765c524b~mv2_d_5184_2607_s_4_2.webp" alt="">
+            <div class="col-sm-4 col-xs-12">
+                <img class='img-responsive col-xs-12' src="https://static.wixstatic.com/media/7831ee_5cd125ffe84442168c17e78b765c524b~mv2_d_5184_2607_s_4_2.jpg/v1/fill/w_1074,h_560,al_c,q_85,usm_0.66_1.00_0.01/7831ee_5cd125ffe84442168c17e78b765c524b~mv2_d_5184_2607_s_4_2.webp" alt="">
                 <b>YouKnowIGotSoul - New Music: Brix Anna – Beginnings (EP)</b>
-                <p>January 06, 2017</p>
-                <p>Here at YouKnowIGotSoul, we are fortunate to be in the position to be able to receive a ton of submissions from artists looking to get featured. Quite honestly, the majority of them don’t make the cut simply because we only want to spotlight the best of the best. Every once in awhile we come across a submission like the one we got from Brianna; an artist we weren’t familiar with before, but we’re glad we got introduced to....</p>
+                <p class="date">January 06, 2017</p>
+                <p class="text">Here at YouKnowIGotSoul, we are fortunate to be in the position to be able to receive a ton of submissions from artists looking to get featured. Quite honestly, the majority of them don’t make the cut simply because we only want to spotlight the best of the best. Every once in awhile we come across a submission like the one we got from Brianna; an artist we weren’t familiar with before, but we’re glad we got introduced to....</p>
             </div>
         </div>
     </div>
@@ -103,20 +116,20 @@
     <div class="container showContainer" id='shows'>
         <div class='upcomingContainer'>
             <div class="row">
-                <h2><i>Upcoming</i></h2>
-                <div class="col-sm-5 col-sm-offset-1">
-                    <img class='img-responsive' src="https://static.wixstatic.com/media/7831ee_933df54f3c6e4efdb23ea4b5d61760f2~mv2.png/v1/fill/w_701,h_697,al_c,lg_1/7831ee_933df54f3c6e4efdb23ea4b5d61760f2~mv2.png" alt="">
-                    <h4>AFROdisiac 2017 March 18 | Purchase College</h4>
+                <h2 class="heading">Upcoming</h2>
+                <div class="col-sm-5 col-sm-offset-1 col-xs-12">
+                    <img class='img-responsive col-xs-10 col-xs-offset-1 col-sm-12 col-md-12' src="https://static.wixstatic.com/media/7831ee_933df54f3c6e4efdb23ea4b5d61760f2~mv2.png/v1/fill/w_701,h_697,al_c,lg_1/7831ee_933df54f3c6e4efdb23ea4b5d61760f2~mv2.png" alt="">
+                    <b>AFROdisiac 2017 March 18 | Purchase College</b>
                 </div>
-                <div class="col-sm-5"><img class='img-responsive' src="https://static.wixstatic.com/media/7831ee_6c63a9c9034143c3b7281d203276af17~mv2.jpg/v1/crop/x_187,y_0,w_384,h_427/fill/w_429,h_512,al_c,lg_1,q_80/7831ee_6c63a9c9034143c3b7281d203276af17~mv2.webp" alt=""></div>
+                <div class="col-sm-5 col-xs-12"><img class='img-responsive col-sm-12 col-xs-8 col-xs-offset-2' src="https://static.wixstatic.com/media/7831ee_6c63a9c9034143c3b7281d203276af17~mv2.jpg/v1/crop/x_187,y_0,w_384,h_427/fill/w_429,h_512,al_c,lg_1,q_80/7831ee_6c63a9c9034143c3b7281d203276af17~mv2.webp" alt=""></div>
             </div>
         </div>
     </div>
 
     <div class="container contactContainer" id='contact'>
         <div class="formContainer">
-           <h2 class='text-center'>Contact</h2>
-            <div class="form-group" >
+            <h2 class='text-center heading'>Contact</h2>
+            <div class="form-group">
                 <label class='white' for="name">Name:</label>
                 <input type="text" class="form-control" id="name">
             </div>
@@ -132,9 +145,18 @@
                 <label class='white' for="comment">Comment:</label>
                 <textarea class="form-control" rows="5" id="comment"></textarea>
             </div>
-            <button class="btn emailButton">Shoot Me an Email</button>
+            <div class="buttonContainer">
+                <button class="btn emailButton">Shoot Me an Email</button>
+            </div>
         </div>
     </div>
+    <footer class="mainFoot">
+        <div class="footContainer">
+            <p class="copy">Copyright © 2017. Bri Marie Music</p>
+            <p class="designed">Designed by <a href="http://midtowndev.io">Midtown Dev Shop</a></p>
+            <!--<i class="fa fa-info-circle" aria-hidden="true"></i>-->
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
     <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>

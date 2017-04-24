@@ -1,3 +1,23 @@
+@font-face {
+    font-family: CooperBold;
+    src: url("../fonts/CooperHewitt-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: CooperBook;
+    src: url("../fonts/CooperHewitt-Book.otf") format("opentype");
+}
+
+@font-face {
+    font-family: CooperLight;
+    src: url("../fonts/CooperHewitt-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/RobotoCondensed-Regular.ttf");
+}
+
 .navbar{
     display: flex;
     justify-content: center;
@@ -5,6 +25,7 @@
     padding-bottom: 10px;
     margin-bottom: 15px;
     background-color: lightgrey;
+    font-family: CooperBook;
 }
 .footContainer { 
     display: inline; 

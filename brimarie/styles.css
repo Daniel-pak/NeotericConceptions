@@ -1,9 +1,190 @@
-.title { 
+@font-face {
+    font-family: BebasBold;
+    src: url("./fonts/BebasNeue%20Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: BebasBook;
+    src: url("./fonts/BebasNeueBook.otf") format("opentype");
+}
+
+@font-face {
+    font-family: BebasLight;
+    src: url("./fonts/BebasNeueLight.otf") format("opentype");
+}
+
+@font-face {
+    font-family: BebasThin;
+    src: url("./fonts/BebasNeueThin.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Bebas;
+    src: url("./fonts/BebasNeueRegular.otf") format("opentype");
+}
+
+.title {
+    text-align: center;
+    font-family: BebasBold;
+    font-size: 48px;
+}
+
+body {
+    background-color: white;
+    color: black;
+    max-width: 100vw;
+}
+.musicRow {
+    max-width: 90vw;
+}
+nav {
+    max-width: 100vw;
+}
+.bri {
+    max-height: 500px;
+}
+
+.heading {
+    text-align: center;
+    font-family: Bebas;
+    font-size: 36px;
+    letter-spacing: 5px;
+}
+
+.container {
+    max-width: 100vw;
+}
+
+.briContainer {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
     align-content: center;
 }
 
-.container { 
-    padding-top: 65px;
+.homeContainer {
+    height: 100vh;
 }
+
+.contentContainHome {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+b {
+    font-family: BebasBook;
+    letter-spacing: 2px;
+    font-size: 22px;
+}
+
+.text {
+    font-size: 16px;
+}
+
+.date {
+    font-family: BebasThin;
+    font-size: 26px;
+}
+
+.musicContainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.aboutContainer {
+    margin-top: 25px;
+    min-height: 100vh;
+}
+
+.pressContainer {
+    margin-top: 25px;
+    min-height: 100vh;
+}
+
+.showContainer {
+    margin-top: 25px;
+}
+
+.contactContainer {
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
+
+.musicImg {
+    padding: 0px;
+    max-width: 95%;
+}
+
+.musicImg img {
+    margin-bottom: 20px;
+    max-width: 95%;
+}
+
+.formContainer {
+    font-family: Bebas;
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.emailButton {
+    background: none;
+    border: black 2px solid;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emailButton:hover {
+    transition: ease-in-out .2s;
+    background-color: black;
+    color: white;
+}
+
+.footContainer {
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.designed{
+    color: dimgrey;
+    margin-right: 20px;
+}
+
+.designed a{
+    color: dimgrey;
+}
+
+.aboutTextContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
