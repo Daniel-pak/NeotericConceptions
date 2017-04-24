@@ -188,3 +188,7 @@ b {
     flex-wrap: wrap;
 }
 
+.container { 
+    padding-top: 50px;
+}
+
