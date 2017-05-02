@@ -1,7 +1,7 @@
-angular.module("ShanePortfolio")
+angular.module("ShanePortfolioApp")
 
 .directive("footer", function(){
     return { 
-        templateUrl: "footer.html"
+        templateUrl: "components/footer.html"
     }
 })
